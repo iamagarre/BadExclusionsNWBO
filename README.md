@@ -8,3 +8,6 @@ BadExclusionsNWBO copies and runs Hook_Checker in all folders and subfolders of 
 
 # Original idea?
 Since the release of BadExclusions I've been thinkning on how to achieve the same results without creating that many noise. The solution came from another tool, https://github.com/asaurusrex/Probatorum-EDR-Userland-Hook-Checker. If you download Probatorum-EDR-Userland-Hook-Checker and you run it inside a regular folder and a folder with an exclusion you will notice a huge difference. All the information is on the Probatorum repository.
+
+# Known Issues
+Right now the tool works but we are receiving some detections from our current EDR only when specifying C:\ as a folder path. We can run the tool against C:\ProgramData or C:\Users without problems. It's just a first release to show the idea. We still have a lot of work to do!
