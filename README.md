@@ -1,2 +1,3 @@
 # BadExclusions Now With Better Opsec
-BadExclusions is a tool to identify folder custom or undocumented exclusions on AV/EDR 
+BadExclusionsNWBO is an evolution from BadExclusions to identify folder custom or undocumented exclusions on AV/EDR
+[image][Img/results.png]
