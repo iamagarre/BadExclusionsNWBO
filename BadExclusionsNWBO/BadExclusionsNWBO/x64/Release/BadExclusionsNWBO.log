@@ -1,0 +1,8 @@
+﻿  BadExclusionsNWBO.cpp
+C:\Users\User\source\repos\BadExclusionsNWBO\BadExclusionsNWBO\BadExclusionsNWBO.cpp(58,42): warning C4101: 'e': unreferenced local variable
+C:\Users\User\source\repos\BadExclusionsNWBO\BadExclusionsNWBO\BadExclusionsNWBO.cpp(65,34): warning C4101: 'e': unreferenced local variable
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 610 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  BadExclusionsNWBO.vcxproj -> C:\Users\User\source\repos\BadExclusionsNWBO\x64\Release\BadExclusionsNWBO.exe
