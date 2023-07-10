@@ -1,3 +1,3 @@
 # BadExclusions Now With Better Opsec
 BadExclusionsNWBO is an evolution from BadExclusions to identify folder custom or undocumented exclusions on AV/EDR
-[image][Img/results.png]
+![Screenshot](Img/Results.png)
