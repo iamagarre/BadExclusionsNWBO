@@ -1,15 +1,21 @@
 # BadExclusions Now With Better Opsec
-BadExclusionsNWBO is an evolution from BadExclusions to identify folder custom or undocumented exclusions on AV/EDR
-
-![Screenshot](Img/results.png)
+BadExclusionsNWBO is an evolution from BadExclusions to identify folder custom or undocumented exclusions on AV/EDR,
 
 # How it works?
-BadExclusionsNWBO copies and runs Hook_Checker in all folders and subfolders of a given path. You need to have Hook_Checker.exe on the same folder of BadExclusionsNWBO.exe. If the number of hooks is 7 or less means folder has an exclusion.
+BadExclusionsNWBO copies and runs Hook_Checker.exe in all folders and subfolders of a given path. You need to have Hook_Checker.exe on the same folder of BadExclusionsNWBO.exe. 
+
+Hook_Checker.exe returns the number of EDR hooks.  If the number of hooks is 7 or less means folder has an exclusion. If it is higger than 7 the fo
 
 # Original idea?
-Since the release of BadExclusions I've been thinkning on how to achieve the same results without creating that many noise. The solution came from another tool, https://github.com/asaurusrex/Probatorum-EDR-Userland-Hook-Checker. If you download Probatorum-EDR-Userland-Hook-Checker and you run it inside a regular folder and on folder with an exclusion you will notice a huge difference. All the information is on the Probatorum repository.
+Since the release of BadExclusions I've been thinkning on how to achieve the same results without creating that many noise. The solution came from another tool, https://github.com/asaurusrex/Probatorum-EDR-Userland-Hook-Checker. 
 
-# Known Issues
-Right now the tool works but we are receiving some detections from our current EDR only when specifying C:\ as a folder path. We can run the tool against C:\ProgramData or C:\Users without problems. 
+If you download Probatorum-EDR-Userland-Hook-Checker and you run it inside a regular folder and on folder with an specific type of exclusion you will notice a huge difference. All the information is on the Probatorum repository.
 
-It's just a first release to show the idea. We still have a lot of work to do! Please share your feedback to improve the tool!
+# Requirements
+Each vendor apply exclusions on a different way. In order to get the list of folder exclusions an specific type of exclusion should be made. Not all types of exclusion and not all the vendors remove the hooks when they exclude a folder.
+
+The user who runs BadExclusionsNWBO needs write permissions on the excluded folder in order to write Hook_Checker file and get the results.
+
+# EDR Demo
+https://github.com/iamagarre/BadExclusionsNWBO/assets/89855208/46982975-f4a5-4894-b78d-8d6ed9b1c8c4
+
