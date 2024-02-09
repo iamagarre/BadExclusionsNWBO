@@ -1,5 +1,5 @@
 # BadExclusions Now With Better Opsec
-BadExclusionsNWBO is an evolution from BadExclusions to identify folder custom or undocumented exclusions on AV/EDR,
+BadExclusionsNWBO is an evolution from BadExclusions to identify folder custom or undocumented exclusions on AV/EDR.
 
 # How it works?
 BadExclusionsNWBO copies and runs Hook_Checker.exe in all folders and subfolders of a given path. You need to have Hook_Checker.exe on the same folder of BadExclusionsNWBO.exe. 
